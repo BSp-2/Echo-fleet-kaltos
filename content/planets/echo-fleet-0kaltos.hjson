@@ -19,13 +19,13 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9
+    radius: 0.995
     seed: 94
-    color1: b37b89ff
-    color2: 9a6c6fff
+    color1: bad7fbff
+    color2: 8eb6deff
     octaves: 0.4
     persistence: 0.4
-    mag: 1.2
+    mag: 1.02
   }
 ]
 generator: {
@@ -71,3 +71,5 @@ defaultCore: echo-fleet-efnest
 parent: echo-fleet-00-achaea
 solarSystem: echo-fleet-00-achaea
 launchCandidates: []
+//color1: b37b89ff
+//color2: 9a6c6fff
