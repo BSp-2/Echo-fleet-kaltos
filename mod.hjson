@@ -1,0 +1,35 @@
+name: "efk"
+displayName: "[orange[]]Echo [#5aaabd[]]Fleet[[]]: [cyan[]]Kaltos" 
+author: "[#5aaabd[]]Plooey :3"
+description: "[#5aaabd[]]A dlc for the mod echo fleet, adds the kaltos campaign."
+version: beginning
+subtitle: "?ploo"
+minGameVersion: 158.1
+repo: BSp-2/Echo-fleet-kaltos
+dependencies: [BSp-2/Echo-fleet]
+
+
+contentOrder: [
+  #attributes
+  #status effects
+  #env
+  #blocks
+    #turrets
+    #drills
+    #distribution
+    #liquid stuff
+    #power
+    #walls
+    #factories
+    #unit blocks
+    #misc core stuff
+  #items
+  #liquids
+  #sectors
+  #units
+    #core
+    #mech
+    #crab
+    #hover
+    #support
+] 
