@@ -25,7 +25,7 @@ mesh: [
     color2: 8eb6deff
     octaves: 0.4
     persistence: 0.4
-    mag: 1.02
+    mag: 1.1
   }
 ]
 generator: {
