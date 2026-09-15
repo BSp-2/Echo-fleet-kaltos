@@ -19,13 +19,13 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.95
+    radius: 0.9
     seed: 94
     color1: b37b89ff
     color2: 9a6c6fff
-    octaves: 1
-    persistence: 0.6
-    mag: 1.1
+    octaves: 0.4
+    persistence: 0.4
+    mag: 1.2
   }
 ]
 generator: {
@@ -60,8 +60,8 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: CAEDEBFF
-iconColor: CAEDEBFF
+atmosphereColor: 025b5620
+iconColor: 04d5cbff
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
