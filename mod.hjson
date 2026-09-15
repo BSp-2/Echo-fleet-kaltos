@@ -6,7 +6,7 @@ version: beginning
 subtitle: "?ploo"
 minGameVersion: 158.1
 repo: BSp-2/Echo-fleet-kaltos
-dependencies: [BSp-2/Echo-fleet]
+dependencies: ["Echo-fleet"]
 
 
 contentOrder: [
