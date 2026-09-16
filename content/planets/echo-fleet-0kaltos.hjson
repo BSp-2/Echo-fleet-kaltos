@@ -10,16 +10,16 @@ mesh: [
     radius: 1
     seed: 94
     color1: 2139a9ff
-    color2: 0b318bff
-    octaves: 1
-    persistence: 0.6
+    color2: 123a96ff
+    octaves: 0
+    persistence: 1
   }
   {
     //frozen shores
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9759
+    radius: 0.9859
     seed: 94
     color1: bad7fbff
     color2: 8eb6deff
@@ -32,13 +32,13 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9702
+    radius: 0.9802
     seed: 94
     color1: 6fa3d1ff
     color2: 578db2ff
     octaves: 6
     persistence: 0.6
-    mag: 0.8
+    mag: 1
   }
 ]
 generator: {
@@ -73,7 +73,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: 013a3820
+atmosphereColor: 012d2c20
 iconColor: 04d5cbff
 hasAtmosphere: true
 allowWaveSimulation: false
