@@ -32,26 +32,26 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9492
+    radius: 0.9392
     seed: 94
     color1: 6fa2d1ff
     color2: 5785b2ff
     octaves: 6
     persistence: 0.6
-    mag: 1
+    mag: 1.2
   }
   {
     //rare earth
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9392
+    radius: 0.9152
     seed: 94
     color1: 4e46acff
     color2: 423897ff
     octaves: 6
     persistence: 0.6
-    mag: 1.2
+    mag: 1.4
   }
 ]
 generator: {
