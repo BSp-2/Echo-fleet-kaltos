@@ -9,20 +9,20 @@ mesh: [
     divisions: 5
     radius: 1
     seed: 94
-    color1: 36a087ff
-    color2: 249287ff
+    color1: 37caa7ff
+    color2: 18a395ff
     octaves: 6
     persistence: 0.6
   }
   {
-    //frozen shores
+    //breccia shores
     type: NoiseMesh
     planet: kaltos
     divisions: 5
     radius: 0.9915
     seed: 94
-    color1: c7f5fbff
-    color2: b1e5efff
+    color1: 60b5f3ff
+    color2: 4497d6ff
     octaves: 6
     persistence: 0.6
     mag: 0.6
