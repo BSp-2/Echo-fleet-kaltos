@@ -9,8 +9,8 @@ mesh: [
     divisions: 5
     radius: 1
     seed: 94
-    color1: 566cd1ff
-    color2: 4168c3ff
+    color1: 56d1b4ff
+    color2: 41c3b6ff
     octaves: 6
     persistence: 0.6
   }
