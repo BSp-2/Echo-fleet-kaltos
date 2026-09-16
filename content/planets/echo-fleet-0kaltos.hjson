@@ -53,6 +53,19 @@ mesh: [
     persistence: 0.6
     mag: 1.4
   }
+  {
+    //atlassium
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.7212
+    seed: 94
+    color1: 256d31ff
+    color2: 155a1aff
+    octaves: 6
+    persistence: 0.6
+    mag: 2
+  }
 ]
 generator: {
   octaves: 4
