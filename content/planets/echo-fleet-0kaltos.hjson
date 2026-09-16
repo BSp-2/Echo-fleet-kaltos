@@ -60,21 +60,21 @@ mesh: [
     divisions: 5
     radius: 0.8680
     seed: 94
-    color1: 347d40ff
+    color1: 347d3eff
     color2: 2a6f2fff
     octaves: 6
     persistence: 0.6
     mag: 2
   }
   {
-    //gabbro
+    //brimstone
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.8035
+    radius: 0.8033
     seed: 94
-    color1: 192f0cff
-    color2: 0c1b06ff
+    color1: 9aaf11ff
+    color2: 909c06ff
     octaves: 6
     persistence: 0.6
     mag: 2.8
