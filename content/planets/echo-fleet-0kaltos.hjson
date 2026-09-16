@@ -15,17 +15,30 @@ mesh: [
     persistence: 0.6
   }
   {
-    //surface rock
+    //frozen shores
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9991
+    radius: 0.9989
     seed: 94
     color1: bad7fbff
     color2: 8eb6deff
     octaves: 6
     persistence: 0.6
     mag: 0.6
+  }
+  {
+    //andesite
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.9791
+    seed: 94
+    color1: 86bddfff
+    color2: 6298bcff
+    octaves: 6
+    persistence: 0.6
+    mag: 0.8
   }
 ]
 generator: {
@@ -60,7 +73,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: 025b5620
+atmosphereColor: 013a3820
 iconColor: 04d5cbff
 hasAtmosphere: true
 allowWaveSimulation: false
