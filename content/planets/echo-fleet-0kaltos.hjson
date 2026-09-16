@@ -11,7 +11,7 @@ mesh: [
     seed: 94
     color1: 2139a9ff
     color2: 123a96ff
-    octaves: 0
+    octaves: 1
     persistence: 1
   }
   {
@@ -32,7 +32,7 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.9552
+    radius: 0.9502
     seed: 94
     color1: d16fb4ff
     color2: b2578fff
