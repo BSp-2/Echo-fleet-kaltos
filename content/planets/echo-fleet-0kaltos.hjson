@@ -9,8 +9,8 @@ mesh: [
     divisions: 5
     radius: 1
     seed: 94
-    color1: 56d1b4ff
-    color2: 41c3b6ff
+    color1: 36a087ff
+    color2: 249287ff
     octaves: 6
     persistence: 0.6
   }
@@ -60,11 +60,24 @@ mesh: [
     divisions: 5
     radius: 0.8652
     seed: 94
-    color1: 256d31ff
-    color2: 155a1aff
+    color1: 347d40ff
+    color2: 2a6f2fff
     octaves: 6
     persistence: 0.6
     mag: 2
+  }
+  {
+    //gabbro
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.8352
+    seed: 94
+    color1: 192f0cff
+    color2: 0c1b06ff
+    octaves: 6
+    persistence: 0.6
+    mag: 2.8
   }
 ]
 generator: {
