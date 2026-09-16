@@ -23,9 +23,9 @@ mesh: [
     seed: 94
     color1: bad7fbff
     color2: 8eb6deff
-    octaves: 1
-    persistence: 1
-    mag: 1.1
+    octaves: 6
+    persistence: 0.6
+    mag: 0.6
   }
 ]
 generator: {
