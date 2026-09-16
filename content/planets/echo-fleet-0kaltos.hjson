@@ -71,7 +71,7 @@ mesh: [
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.8352
+    radius: 0.8142
     seed: 94
     color1: 192f0cff
     color2: 0c1b06ff
