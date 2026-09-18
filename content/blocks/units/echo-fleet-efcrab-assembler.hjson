@@ -1,8 +1,9 @@
+type: UnitAssembler
 requirements: [
   efksilicon/500
   echo-fleet-efcupride/400
   echo-fleet-efeuropium/200
-  efpolycarbonate/200
+  echo-fleet-efpolycarbonate/200
 ]
 plans: [
   {
