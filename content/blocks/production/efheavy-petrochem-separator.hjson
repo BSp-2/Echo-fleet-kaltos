@@ -1,0 +1,10 @@
+requirements: [
+	efksilicon/120
+	echo-fleet-efcopper/100
+	echo-fleet-efcupride/40
+]
+researchCost: [
+	efksilicon/600
+	echo-fleet-efcopper/500
+	echo-fleet-efcupride/200
+] 

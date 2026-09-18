@@ -1,7 +1,8 @@
 name: "efk"
 displayName: "[orange[]]Echo [#5aaabd[]]Fleet[[]]: [cyan[]]Kaltos" 
 author: "[#5aaabd[]]Plooey :3"
-description: "[#5aaabd[]]A dlc for the mod echo fleet, adds the kaltos campaign."
+description: '''[#5aaabd[]]A dlc for the mod echo fleet, adds the kaltos campaign.
+[#5aaabd[]]Do not play aetheria ith this mod enabled, it changes some of its content to be kaltos only compatible.'''
 version: beginning
 subtitle: "?ploo"
 minGameVersion: 158.1

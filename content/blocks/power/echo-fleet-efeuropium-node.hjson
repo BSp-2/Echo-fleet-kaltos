@@ -1,0 +1,8 @@
+requirements: [
+  efksilicon/6
+  echo-fleet-efeuropium/4
+]
+researchCost: [
+  efksilicon/300
+  echo-fleet-efeuropium/200
+]
