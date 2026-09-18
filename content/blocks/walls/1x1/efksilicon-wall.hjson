@@ -1,0 +1,18 @@
+type: Wall
+size: 1
+armor: 4
+health: 400
+squareSprite: true
+category: defense
+buildTime: 6
+
+
+requirements: [
+  efksilicon/6
+]
+
+
+research: echo-fleet-efscrap-wall
+researchCost: [
+  efksilicon/60
+]

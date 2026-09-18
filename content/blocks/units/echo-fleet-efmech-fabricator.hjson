@@ -1,0 +1,27 @@
+type: UnitFactory
+requirements: [
+  efksilicon/220
+  echo-fleet-efcopper/120
+]
+plans: [
+  {
+    unit: echo-fleet-efratchet
+    requirements: [
+      efksilicon/40
+      echo-fleet-efcopper/30
+    ]
+    time: 1800
+  }
+]
+consumes: {
+  power: 1.6666666666666666666666666666
+  liquids: [
+	  echo-fleet-efpurified-water/0.1
+  ]
+}
+researchCost: [
+	efksilicon/440
+  echo-fleet-efcopper/240
+]
+
+

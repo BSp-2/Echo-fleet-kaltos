@@ -1,0 +1,31 @@
+type: UnitFactory
+requirements: [
+  efksilicon/240
+  echo-fleet-efcopper
+  echo-fleet-efcupride/60
+]
+plans: [
+  {
+    unit: echo-fleet-efthrive
+    requirements: [
+      efksilicon/75
+      echo-fleet-efcopper/50
+    ]
+    time: 3000
+  }  
+]
+consumes: {
+  power: 2.5
+  liquids: [
+	  echo-fleet-efpurified-water/0.2
+  ]
+}
+researchCost: [
+	efksilicon/600
+  echo-fleet-efcopper/450
+  echo-fleet-efcupride/300
+] 
+
+
+
+

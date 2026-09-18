@@ -1,0 +1,18 @@
+type: Wall
+size: 3
+armor: 5
+health: 3600
+squareSprite: true
+category: defense
+buildTime: 54
+
+
+requirements: [
+  efksilicon/54
+]
+
+
+research: efksilicon-wall-large
+researchCost: [
+  efksilicon/540
+]

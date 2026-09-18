@@ -1,0 +1,26 @@
+requirements: [
+  efksilicon/500
+  echo-fleet-efcupride/400
+  echo-fleet-efeuropium/200
+  efpolycarbonate/200
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: echo-fleet-efbonfire
+    requirements: [
+    efksilicon-wall-large/4
+    echo-fleet-efcrab-heels/3
+    echo-fleet-efblaze/1
+    ]
+    time: 4500
+  }
+]
+consumes: {
+  liquids: [
+    echo-fleet-eflpg/0.033333333333333333333333333333333333333
+  ]
+  power: 3
+}
+
+

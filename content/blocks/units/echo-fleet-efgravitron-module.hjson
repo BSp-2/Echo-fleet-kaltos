@@ -1,0 +1,5 @@
+requirements: [
+  efksilicon/16
+  echo-fleet-efcopper/8
+  echo-fleet-efpolycarbonate/8
+]

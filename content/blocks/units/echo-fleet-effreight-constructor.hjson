@@ -1,0 +1,20 @@
+type: Constructor
+requirements: [
+  efksilicon/120
+  echo-fleet-efcopper/100
+] 
+researchCost: [
+  efksilicon/600
+  echo-fleet-efcopper/500
+]
+filter: [
+  echo-fleet-efliquid-tank
+  echo-fleet-efunit-mender
+  echo-fleet-efstorage-block
+  efksilicon-wall
+  efksilicon-wall-large
+  echo-fleet-efcopper-wall
+  echo-fleet-efcopper-wall-large
+  echo-fleet-efeuropium-wall
+  echo-fleet-efeuropium-wall-large
+]

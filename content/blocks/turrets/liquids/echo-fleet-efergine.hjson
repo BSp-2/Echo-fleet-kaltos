@@ -1,0 +1,11 @@
+type: ContinuousLiquidTurret
+requirements: [
+  efksilicon/140
+  echo-fleet-efcopper/100
+  echo-fleet-efcupride/60
+]
+researchCost: [
+	efksilicon/700
+  echo-fleet-efcopper/500
+  echo-fleet-efcupride/300
+]

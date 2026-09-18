@@ -1,0 +1,136 @@
+type: ItemTurret
+researchCost: [
+  efksilicon/2700
+  echo-fleet-efcopper/2400
+  echo-fleet-efcupride/1800
+]
+requirements: [
+  efksilicon/450
+  echo-fleet-efcopper/400
+  echo-fleet-efcupride/200
+]
+ammoTypes: {
+  efksulphur: {
+	shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    type: ArtilleryBulletType
+    scaleLife:true
+	sprite: mine-bullet
+    homingPower: 0.012
+    homingDelay:6
+    speed: 13
+    drag:0.14
+    lifetime: 56
+    width: 24
+    height: 24
+    spin:2
+	shrinkY:0.3
+    shrinkX: 0.3
+    trailLength: 8
+    trailWidth: 3.5
+    frontColor: FFD37FFF
+    backColor: EEAA77FF
+    trailColor: EEAA77FF
+    splashDamage: 150
+	splashDamageRadius: 48
+    hitEffect: [
+      {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 32
+      strokeFrom: 12
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 50
+      strokeFrom: 9
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 70
+      strokeFrom: 5
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    ]
+    despawnEffect: none
+	despawnSound: explosionDull
+	status: echo-fleet-efconcussion
+	statusDuration: 360
+	incendChance: 1
+	incendSpread: 12
+	incendAmount: 8
+	fragBullets: 16
+    fragVelocityMin: 0.4
+    fragVelocityMax: 1.4
+	fragLifeMin: 0.6
+	fragLifeMax: 6
+    fragOffsetMin:12
+    fragOffsetMax:12
+    fragSpread: 10
+    fragRandomSpread: 0
+    fragBullet: {
+      type: BasicBulletType
+	  damage: 40
+	  splashDamage: 30
+	  splashDamageRadius: 4
+	  speed: 2.4
+	  lifetime: 150
+	  drag: 0.02
+	  weaveScale: 6
+	  weaveMag:2
+      weaveRandom: false
+      incendChance: 1
+      incendSpread: 4
+      incendAmount: 2
+      pierce:true
+      pierceCap:2
+	  sprite: large-bomb
+	  width: 12
+	  height: 12
+	  shrinkX: 0
+	  shrinkY: 0
+	  trailLength: 8
+	  trailWidth: 2
+	  frontColor: FFD37FFF
+	  backColor: EEAA77FF
+	  trailColor: EEAA77FF
+	  status: echo-fleet-efconcussion
+	  statusDuration: 240
+      hitEffect:{
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 12
+      sizeTo: 6
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+      }
+      fragBullets:1
+      fragBullet:{
+      width:0
+      damage:1
+      splashDamage: 1
+      splashDamageRadius: 6
+      speed:0.1
+      pierce:true
+      lifetime:1
+      status: slow
+      statusDuration: 45
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+requirements: [
+  efksilicon/20
+  echo-fleet-efcupride/5
+  echo-fleet-efeuropium/15
+]

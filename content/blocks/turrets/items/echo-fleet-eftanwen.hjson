@@ -1,0 +1,268 @@
+type: ItemTurret
+requirements: [
+  efksilicon/480
+  echo-fleet-efcopper/320
+  echo-fleet-efcupride/120
+]
+ammoTypes: {
+  efksilicon: {
+      shootPattern: {
+      type: ShootMulti
+      source: {
+        type: ShootPattern
+        shots: 6
+        shotDelay: 1
+      }
+      dest: [
+        {
+          type: ShootPattern
+          shots: 6
+          shotDelay: 12
+        }
+      ]
+      }
+      velocityScaleRandMin:0.9
+      velocityScaleRandMax:1.4
+      type: BasicBulletType
+      speed: 15
+      drag:0.012
+      ammoMultiplier: 1
+      reloadMultiplier: 0.3
+      lifetime: 16
+      rangeChange: -48
+	    damage: 35
+      pierceArmor: true
+      width: 7
+      height: 18
+      smokeEffect: shootSmokeSquare
+      trailColor: B4CCBEFF
+      trailWidth: 1.5
+      trailLength: 6
+      trailEffect: none
+      backColor: B4CCBEFF
+      hitColor: B4CCBEFF
+      collidesTeam: false
+      hitSound: none
+	    buildingDamageMultiplier: 0.1
+      hitEffect:[{
+      type: ParticleEffect
+      followParent:false
+      particles: 18
+      length: 37
+      lifetime: 23
+      interp: pow5Out
+      cone: 7
+      layer:100.2
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      sizeFrom: 1.6
+      sizeTo: 0
+      }
+      {
+      type: ParticleEffect
+      followParent:false
+      particles: 12
+      length: 43
+      lifetime: 16
+      interp: pow3Out
+      line:true
+      cone: 3
+      layer:100.3
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      lenFrom: 7
+      lenTo: 0
+      }
+      {
+      type: WaveEffect
+      sizeFrom:4
+      sizeTo: 1
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 32
+      colorFrom: B4CCBE00
+      colorTo: B4CCBEFF
+      }
+      ]
+      despawnEffect:[{
+      type: ParticleEffect
+      followParent:false
+      particles: 18
+      length: 37
+      lifetime: 23
+      interp: pow5Out
+      cone: 7
+      layer:100.2
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      sizeFrom: 1.6
+      sizeTo: 0
+      }
+      {
+      type: ParticleEffect
+      followParent:false
+      particles: 12
+      length: 43
+      lifetime: 16
+      interp: pow3Out
+      line:true
+      cone: 3
+      layer:100.3
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      lenFrom: 7
+      lenTo: 0
+      }
+      {
+      type: WaveEffect
+      sizeFrom:4
+      sizeTo: 1
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 32
+      colorFrom: B4CCBE00
+      colorTo: B4CCBEFF
+      }
+      ]
+  }
+  echo-fleet-efcupride: {
+	  rangeChange: 48
+	  ammoMultiplier: 3
+      type: BasicBulletType
+      speed: 10
+      lifetime: 33.6
+      damage: 25
+      inaccuracy: 20
+      splashDamage: 50
+	  splashDamageRadius: 40
+      width: 10
+      height: 16
+      smokeEffect: shootSmokeSquare
+      trailColor: BEE0ADFF
+      trailWidth: 2
+      trailLength: 9
+      trailParam: 1.25
+      trailInterval: 0.5
+      trailEffect: missileTrail
+      backColor: BEE0ADFF
+      hitColor: BEE0ADFF
+      collidesTeam: false
+      hitSound: none
+      homingPower: 0.03
+      homingDelay:2
+	  buildingDamageMultiplier: 0.1
+      despawnEffect: [
+	  {
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 120
+       	layer: 100.4
+      	cone: 360
+      	interp:pow3Out
+      	sizeChangeStart:12
+      	length: 40
+      	sizeFrom: 2
+      	sizeTo: 6
+      	baseRotation:180
+      	colorFrom: BEE0ADAA
+      	colorTo: BEE0AD00
+      }      
+      {
+      	type: ParticleEffect
+      	particles: 5
+      	lifetime: 140
+      	layer: 100.5
+      	cone: 140
+      	interp:pow3Out
+      	sizeChangeStart:12
+       	length: 30
+      	sizeFrom: 2
+      	sizeTo: 4
+      	baseRotation:180
+       	colorFrom: BEE0AD80
+      	colorTo: BEE0AD00
+      }
+    	{
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 130
+      	layer: 100.3
+      	cone: 360
+      	length: 12
+      	sizeFrom: 2
+      	sizeTo: 0
+      	baseRotation:180
+      	colorFrom: BEE0A80
+      	colorTo: BEE0AD80
+      }
+    	{
+      	type: WaveEffect
+      	sizeFrom: 0
+      	sizeTo: 12
+      	strokeTo:7
+	      lifetime: 20
+      	colorFrom: BEE0ADD
+      	colorTo: BEE0AD00
+      } 
+    ] 
+    hitEffect: [
+	  {
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 120
+       	layer: 100.4
+      	cone: 360
+      	interp:pow3Out
+      	sizeChangeStart:12
+      	length: 40
+      	sizeFrom: 2
+      	sizeTo: 6
+      	baseRotation:180
+      	colorFrom: BEE0ADAA
+      	colorTo: BEE0AD00
+      }      
+      {
+      	type: ParticleEffect
+      	particles: 5
+      	lifetime: 140
+      	layer: 100.5
+      	cone: 140
+      	interp:pow3Out
+      	sizeChangeStart:12
+       	length: 30
+      	sizeFrom: 2
+      	sizeTo: 4
+      	baseRotation:180
+       	colorFrom: BEE0AD80
+      	colorTo: BEE0AD00
+      }
+    	{
+      	type: ParticleEffect
+      	particles: 6
+      	lifetime: 130
+      	layer: 100.3
+      	cone: 360
+      	length: 12
+      	sizeFrom: 2
+      	sizeTo: 0
+      	baseRotation:180
+      	colorFrom: BEE0A80
+      	colorTo: BEE0AD80
+      }
+    	{
+      	type: WaveEffect
+      	sizeFrom: 0
+      	sizeTo: 12
+      	strokeTo:7
+	    lifetime: 20
+      	colorFrom: BEE0ADD
+      	colorTo: BEE0AD00
+      } 
+	] 
+  }
+} 
+researchCost: [
+	efksilicon/2700
+  echo-fleet-efcopper/2400
+  echo-fleet-efcupride/1600
+]

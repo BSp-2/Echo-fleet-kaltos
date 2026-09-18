@@ -1,0 +1,9 @@
+type: item
+flammability: 1
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: e3e716ff
+
+shownPlanets: [echo-fleet-0kaltos]
+research: echo-fleet-efsoft-coal

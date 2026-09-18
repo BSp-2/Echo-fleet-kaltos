@@ -1,0 +1,25 @@
+requirements: [
+  efksilicon/280
+  echo-fleet-efcopper/540
+  echo-fleet-efcupride/320
+]
+consumes: {
+  power: 3
+  liquids: [
+  echo-fleet-efcarbon-dioxide/0.01
+  ]
+  items: [
+  efksilicon/60
+  echo-fleet-efcopper/45
+  echo-fleet-efcupride/75
+  ]
+}
+researchCost: [
+	efksilicon/1600
+	echo-fleet-efcopper/1800
+	echo-fleet-efcupride/850
+]
+
+
+
+

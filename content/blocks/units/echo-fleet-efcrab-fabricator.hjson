@@ -1,0 +1,25 @@
+type: UnitFactory
+requirements: [
+  efksilicon/180
+  echo-fleet-efcopper/100
+]
+plans: [
+  {
+    unit: efblaze
+    requirements: [
+      efksilicon/45
+      echo-fleet-efcopper/30
+    ]
+    time: 2700
+  } 
+]
+consumes: {
+  power: 2
+  liquids: [
+	echo-fleet-efpurified-water/0.15
+  ] 
+}
+researchCost: [
+	efksilicon/900
+  echo-fleet-efcopper/500
+]

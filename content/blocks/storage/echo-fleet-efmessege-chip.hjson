@@ -1,0 +1,4 @@
+requirements: [
+  efksilicon/20
+  echo-fleet-efcupride/4
+]

@@ -1,0 +1,8 @@
+requirements: [
+  echo-fleet-efeuropium/24
+  echo-fleet-efcupride/16
+]
+researchCost: [
+  echo-fleet-efcupride/160
+  echo-fleet-efeuropium/240
+]
