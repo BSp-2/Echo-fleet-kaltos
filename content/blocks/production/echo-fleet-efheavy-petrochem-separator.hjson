@@ -1,16 +1,15 @@
 requirements: [
 	efksilicon/120
-	efksilicon/100
 	echo-fleet-efcopper/40
 ]
 researchCost: [
 	efksilicon/600
-	efksilicon/500
 	echo-fleet-efcopper/200
 ] 
 consumes: {
+	remove: all
 	liquids: [
-    echo-fleet-efcrude-oil/0.4
+    echo-fleet-efcrude-oil/0.2
 	] 
-	power: 0.888888888888888888888888
+	power: 0.83333333333333333333333333
 }
