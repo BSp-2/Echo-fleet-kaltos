@@ -1,0 +1,21 @@
+consumes: {
+    remove: all
+	power: 3
+	liquids: [
+  	  eflpg/0.01666666666666666
+	]
+	items: [
+	  efsoft-coal/1
+      efksilicon/3
+	]
+}
+requirements: [
+	efksilicon/80
+	echo-fleet-efcupride/40
+	echo-fleet-efeuropium/20
+]
+researchCost: [
+	efksilicon/400
+	echo-fleet-efcupride/200
+	echo-fleet-efeuropium/100
+]
