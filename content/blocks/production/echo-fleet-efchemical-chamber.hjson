@@ -2,10 +2,10 @@ consumes: {
     remove: all
 	power: 3
 	liquids: [
-  	  eflpg/0.01666666666666666
+  	  echo-fleet-eflpg/0.01666666666666666
 	]
 	items: [
-	  efsoft-coal/1
+	  echo-fleet-efsoft-coal/1
       efksilicon/3
 	]
 }
