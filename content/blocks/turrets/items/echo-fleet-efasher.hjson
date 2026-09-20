@@ -3,8 +3,9 @@ requirements: [
   echo-fleet-efcopper/40
 ]
 consumes: {
-  power: 0.5
-  liquid: echo-fleet-efcrude-oil/0.05
+  remove: all
+  power: 1
+  liquid: echo-fleet-efpurified-water/0.15
 } 
 ammoTypes: {
   echo-fleet-efcopper: {

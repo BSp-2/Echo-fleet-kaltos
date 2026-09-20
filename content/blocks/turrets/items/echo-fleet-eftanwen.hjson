@@ -2,6 +2,7 @@ requirements: [
   efksilicon/480
   echo-fleet-efcopper/320
   echo-fleet-efcupride/120
+  echo-fleet-efeuropium/80
 ]
 ammoTypes: {
   efksilicon: {
@@ -264,4 +265,5 @@ researchCost: [
 	efksilicon/2700
   echo-fleet-efcopper/2400
   echo-fleet-efcupride/1600
+  echo-fleet-efeuroppium/800
 ]

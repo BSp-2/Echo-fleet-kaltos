@@ -1,0 +1,61 @@
+type: ConsumeGenerator
+size: 3
+category: power
+squareSprite: false
+
+
+requirements: [
+  efksilicon/80
+  echo-fleet-efcopper/50
+]
+
+
+consumes: {
+  items: [
+ 	efksulphur/3
+  ]
+  liquids: [
+ 	echo-fleet-efpurified-water/0.4
+  ]
+}
+
+
+powerProduction: 5
+itemDuration: 240
+
+
+generateEffect: generatespark
+ambientSound: loopSmelter
+ambientSoundVolume: 0.03
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: echo-fleet-efpurified-water
+      alpha: 1
+      padding: 3
+    } 
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+
+research: kaltosresearchroot
+researchCost: [
+  efksilicon/400
+  echo-fleet-efcopper/200
+] 
+

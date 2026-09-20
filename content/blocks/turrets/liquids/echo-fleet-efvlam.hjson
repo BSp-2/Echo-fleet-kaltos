@@ -2,11 +2,13 @@ researchCost: [
   efksilicon/2700
   echo-fleet-efcopper/2400
   echo-fleet-efcupride/1800
+  echo-fleet-efeuropium/1200
 ]
 requirements: [
   efksilicon/450
   echo-fleet-efcopper/400
   echo-fleet-efcupride/200
+  echo-fleet-efeuropium/120
 ]
 ammoTypes: {
   efksulphur: {
