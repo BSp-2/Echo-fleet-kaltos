@@ -17,6 +17,22 @@ contentOrder: [
   sulfideattribute
   #status effects
   #env
+  sulphur
+  sulphurv
+  sulphurw
+  sphalerite
+  pyrite
+  hyaloclastite
+  hyaloclastitew
+  breccia1t
+  breccia2t
+  breccia3t
+  brecciaw
+  bwater
+  swater
+  twater
+  dwater
+  oresilicon
   #blocks
     #turrets
     #drills
