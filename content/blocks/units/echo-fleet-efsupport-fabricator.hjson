@@ -1,6 +1,6 @@
 requirements: [
   efksilicon/240
-  echo-fleet-efcopper
+  echo-fleet-efcopper/90
   echo-fleet-efcupride/60
 ]
 plans: [
