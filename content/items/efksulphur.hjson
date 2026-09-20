@@ -5,5 +5,5 @@ radioactivity: 0
 charge: 0
 color: e3e716ff
 
-shownPlanets: [echo-fleet-0kaltos]
+shownPlanets: [echo-fleet-aetheria, echo-fleet-0kaltos]
 research: echo-fleet-efsoft-coal

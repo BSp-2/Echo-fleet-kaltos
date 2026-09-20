@@ -5,5 +5,5 @@ radioactivity: 0
 charge: 0
 color: 50545EFF
 
-shownPlanets: [echo-fleet-0kaltos]
+shownPlanets: [echo-fleet-aetheria, echo-fleet-0kaltos]
 research: echo-fleet-efscrap
