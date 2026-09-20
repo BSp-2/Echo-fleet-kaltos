@@ -22,8 +22,17 @@ drillMultipliers: {
   efksulphur: 0.5
 }
 blockedItems: [
-  echo-fleet-efscrap,
+  echo-fleet-efscrap
   echo-fleet-efeuropium
+  sand
+  scrap
+  copper
+  lead
+  coal
+  titanium
+  thorium
+  beryllium
+  tungsten
 ]
 
 
