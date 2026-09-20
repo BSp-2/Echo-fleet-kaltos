@@ -32,6 +32,8 @@ consumes: {
       liquids: [
         echo-fleet-efozone/0.03333333333333333333333333333
       ]
+      optional: true
+      booster: true
     }
     liquid: echo-fleet-efpurified-water/0.3333333333333333333
 } 
