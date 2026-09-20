@@ -1,4 +1,3 @@
-type: UnitFactory
 requirements: [
   efksilicon/240
   echo-fleet-efcopper
@@ -15,6 +14,7 @@ plans: [
   }  
 ]
 consumes: {
+  remove: all
   power: 2.5
   liquids: [
 	  echo-fleet-efpurified-water/0.2

@@ -4,6 +4,7 @@ requirements: [
   echo-fleet-efcupride/320
 ]
 consumes: {
+  remove: all
   power: 3
   liquids: [
 	echo-fleet-efcarbon-dioxide/0.1

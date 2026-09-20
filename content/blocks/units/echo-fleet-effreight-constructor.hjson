@@ -1,4 +1,3 @@
-type: Constructor
 requirements: [
   efksilicon/120
   echo-fleet-efcopper/100
