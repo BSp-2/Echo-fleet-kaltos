@@ -12,7 +12,7 @@ requirements: [
 ]
 
 
-research: echo-fleet-efscrap-wall
+research: kaltosresearchroot
 researchCost: [
   efksilicon/60
 ]

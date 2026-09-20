@@ -1,0 +1,48 @@
+type: Drill
+hasLiquids: true
+size: 3
+itemCapacity: 20
+tier: 10
+drillTime: 360
+drawMineItem: true
+rotateSpeed: -1
+liquidBoostIntensity: 1.5
+drawRim: true
+heatColor: ff8418
+hardnessDrillMultiplier: 0
+
+
+requirements: [
+  efksilicon/20
+  echo-fleet-efcopper/20
+]
+
+
+drillMultipliers: [
+  efksulphur/0.5
+]
+blockedItems: [
+  echo-fleet-efscrap,
+  echo-fleet-efeuropium
+]
+
+
+consumes: {
+    liquids: {
+      liquids: [
+        echo-fleet-efozone/0.03333333333333333333333333333
+      ]
+    }
+    liquid: echo-fleet-efpurified-water/0.3333333333333333333
+} 
+
+
+category: production
+research: {
+  parent: kaltosresearchroot
+  requiresUnlock: false
+} 
+researchCost: [
+  efksilicon/100
+  echo-fleet-efcopper/100
+]

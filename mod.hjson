@@ -36,14 +36,20 @@ contentOrder: [
   #blocks
     #turrets
     #drills
+    efkdrill1
     #distribution
     #liquid stuff
     #power
     #walls
+    efksilicon-wall
+    efksilicon-wall-large
+    efksilicon-wall-huge
     #factories
     #unit blocks
     #misc core stuff
   #items
+  efksilicon
+  efksulphur
   #liquids
   #sectors
   #units

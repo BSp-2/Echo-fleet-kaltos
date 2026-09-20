@@ -1,0 +1,9 @@
+type: GenericCrafter
+buildVisibility: debugOnly
+inEditor: false
+research: {
+  planet: echo-fleet-0kaltos
+  root: true
+  name: Kaltos Blocks
+} 
+alwaysUnlocked: true
