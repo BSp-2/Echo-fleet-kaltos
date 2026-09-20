@@ -1,0 +1,11 @@
+type: Floor
+speedMultiplier: 0.8
+variants: 3
+status: wet
+statusDuration: 150
+liquidDrop: echo-fleet-efpurified-water
+liquidMultiplier: 1.25
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
