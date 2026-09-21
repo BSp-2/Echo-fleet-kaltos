@@ -2,6 +2,7 @@ type: ConsumeGenerator
 size: 3
 category: power
 squareSprite: false
+warmupSpeed: 0.0025
 
 
 requirements: [
@@ -49,7 +50,7 @@ drawer: {
       type: DrawRegion
       suffix: -mechanism
       spinSprite: true
-      rotateSpeed: 6
+      rotateSpeed: -9
     } 
     {
       type: DrawDefault
@@ -65,3 +66,38 @@ researchCost: [
   echo-fleet-efcopper/200
 ] 
 
+
+generateEffectChance: 1
+generateEffect: {
+  type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 240
+            sizeInterp: slope
+            length: 64
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: DFDFFF80
+            colorTo: DFDFFF00
+            layer: 61.8
+            cone: 15
+            baseRotation: 25
+        }
+        {
+            type: ParticleEffect
+            lifetime: 180
+            sizeInterp: slope
+            length: 64
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: DFDFFF80
+            colorTo: DFDFFF00
+            layer: 61.9
+            cone: 20
+            baseRotation: 25
+        }
+    ]
+} 
