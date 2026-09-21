@@ -74,11 +74,12 @@ generateEffect: {
         {
             type: ParticleEffect
             lifetime: 360
-            sizeInterp: slope
+            sizeInterp: pow2Out
+            interp: slope
             length: 64
             sizeFrom: 2
-            sizeTo: 8
-            colorFrom: ffffffff
+            sizeTo: 4
+            colorFrom: ffffff80
             colorTo: ffffff00
             layer: 100.8
             cone: 5
@@ -87,11 +88,12 @@ generateEffect: {
         {
             type: ParticleEffect
             lifetime: 300
-            sizeInterp: slope
+            sizeInterp: po2Out
+            interp: slope
             length: 64
             sizeFrom: 2
-            sizeTo: 8
-            colorFrom: ffffffff
+            sizeTo: 3
+            colorFrom: ffffff80
             colorTo: ffffff00
             layer: 100.9
             cone: 10
