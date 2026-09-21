@@ -67,16 +67,17 @@ researchCost: [
 ] 
 
 
-effectChance: 0.05
+effectChance: 0.1
 generateEffectRange: 0
 generateEffect: {
   type: ParticleEffect
+  particles: 4
   lifetime: 360
   sizeInterp: pow2In
-  interp: linear
+  interp: pow2Out
   length: 64
   sizeFrom: 1.5
-  sizeTo: 4
+  sizeTo: 6
   colorFrom: ffffff60
   colorTo: ffffff00
   layer: 100.8
