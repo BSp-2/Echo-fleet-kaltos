@@ -67,7 +67,7 @@ researchCost: [
 ] 
 
 
-generateEffectChance: 1
+generateEffectRange: 0
 generateEffect: {
   type: MultiEffect
     effects: [
@@ -75,7 +75,7 @@ generateEffect: {
             type: ParticleEffect
             lifetime: 360
             sizeInterp: pow2Out
-            interp: slope
+            interp: swingIn
             length: 64
             sizeFrom: 2
             sizeTo: 4
@@ -89,7 +89,7 @@ generateEffect: {
             type: ParticleEffect
             lifetime: 300
             sizeInterp: pow2Out
-            interp: slope
+            interp: swingIn
             length: 64
             sizeFrom: 2
             sizeTo: 3
