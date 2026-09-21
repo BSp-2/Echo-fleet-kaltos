@@ -88,7 +88,7 @@ generateEffect: {
         {
             type: ParticleEffect
             lifetime: 300
-            sizeInterp: po2Out
+            sizeInterp: pow2Out
             interp: slope
             length: 64
             sizeFrom: 2
