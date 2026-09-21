@@ -75,11 +75,11 @@ generateEffect: {
   sizeInterp: pow2In
   interp: linear
   length: 64
-  sizeFrom: 1
+  sizeFrom: 1.5
   sizeTo: 4
-  colorFrom: ffffff80
+  colorFrom: ffffff60
   colorTo: ffffff00
   layer: 100.8
-  cone: 5
+  cone: 15
   baseRotation: 75
 } 
