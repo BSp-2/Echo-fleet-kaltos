@@ -67,38 +67,19 @@ researchCost: [
 ] 
 
 
-effectChance: 0.5
+effectChance: 0.2
 generateEffectRange: 0
 generateEffect: {
-  type: MultiEffect
-    effects: [
-        {
-            type: ParticleEffect
-            lifetime: 360
-            sizeInterp: pow2Out
-            interp: pow3Out
-            length: 64
-            sizeFrom: 2
-            sizeTo: 4
-            colorFrom: ffffff80
-            colorTo: ffffff00
-            layer: 100.8
-            cone: 5
-            baseRotation: 65
-        }
-        {
-            type: ParticleEffect
-            lifetime: 300
-            sizeInterp: pow2Out
-            interp: pow3Out
-            length: 64
-            sizeFrom: 1
-            sizeTo: 3
-            colorFrom: ffffff40
-            colorTo: ffffff00
-            layer: 100.9
-            cone: 10
-            baseRotation: 65
-        }
-    ]
+  type: ParticleEffect
+  lifetime: 360
+  sizeInterp: pow2In
+  interp: pow3Out
+  length: 64
+  sizeFrom: 0.5
+  sizeTo: 4
+  colorFrom: ffffff80
+  colorTo: ffffff00
+  layer: 100.8
+  cone: 5
+  baseRotation: 75
 } 
