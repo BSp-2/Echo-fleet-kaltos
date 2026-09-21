@@ -67,6 +67,7 @@ researchCost: [
 ] 
 
 
+effectChance: 0.5
 generateEffectRange: 0
 generateEffect: {
   type: MultiEffect
@@ -75,7 +76,7 @@ generateEffect: {
             type: ParticleEffect
             lifetime: 360
             sizeInterp: pow2Out
-            interp: swingIn
+            interp: pow3Out
             length: 64
             sizeFrom: 2
             sizeTo: 4
@@ -89,11 +90,11 @@ generateEffect: {
             type: ParticleEffect
             lifetime: 300
             sizeInterp: pow2Out
-            interp: swingIn
+            interp: pow3Out
             length: 64
-            sizeFrom: 2
+            sizeFrom: 1
             sizeTo: 3
-            colorFrom: ffffff80
+            colorFrom: ffffff40
             colorTo: ffffff00
             layer: 100.9
             cone: 10
