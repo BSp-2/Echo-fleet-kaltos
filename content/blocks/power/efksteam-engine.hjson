@@ -73,31 +73,29 @@ generateEffect: {
     effects: [
         {
             type: ParticleEffect
-            lifetime: 240
+            lifetime: 360
             sizeInterp: slope
             length: 64
-            baseLength: 4
-            sizeFrom: 4
+            sizeFrom: 2
             sizeTo: 8
-            colorFrom: DFDFFF80
-            colorTo: DFDFFF00
-            layer: 61.8
-            cone: 15
-            baseRotation: 25
+            colorFrom: ffffffff
+            colorTo: ffffff00
+            layer: 100.8
+            cone: 5
+            baseRotation: 65
         }
         {
             type: ParticleEffect
-            lifetime: 180
+            lifetime: 300
             sizeInterp: slope
             length: 64
-            baseLength: 4
-            sizeFrom: 4
+            sizeFrom: 2
             sizeTo: 8
-            colorFrom: DFDFFF80
-            colorTo: DFDFFF00
-            layer: 61.9
-            cone: 20
-            baseRotation: 25
+            colorFrom: ffffffff
+            colorTo: ffffff00
+            layer: 100.9
+            cone: 10
+            baseRotation: 65
         }
     ]
 } 
