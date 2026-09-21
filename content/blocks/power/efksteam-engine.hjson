@@ -46,6 +46,12 @@ drawer: {
       type: DrawCrucibleFlame
     }
     {
+      type: DrawRegion
+      suffix: -mechanism
+      spinSprite: true
+      rotSpeed: 6
+    } 
+    {
       type: DrawDefault
     }
   ]
