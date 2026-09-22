@@ -18,8 +18,8 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: eeff8080
-            colorTo: eeff8000
+            colorFrom: 99732680
+            colorTo: 99732600
             layer: 61.8
             cone: 45
             baseRotation: 30
@@ -32,8 +32,8 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: eeff8080
-            colorTo: eeff8000
+            colorFrom: 99732680
+            colorTo: 99732600
             layer: 61.9
             cone: 35
             baseRotation: 30
