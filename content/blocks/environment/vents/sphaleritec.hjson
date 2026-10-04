@@ -1,3 +1,7 @@
 type: SteamVent
 blendGroup: sphalerite
 parent: sphalerite
+effect: {
+  type: ParticleEffect
+  particles: 0
+}
