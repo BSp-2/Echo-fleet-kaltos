@@ -18,23 +18,28 @@ contentOrder: [
   #status effects
   #env
   sulphur
-  sulphurv
-  sulphurw
   jarosite
   pyrite
   sphalerite
-  sphaleritec
   palagonite
   hyaloclastite
-  hyaloclastitew
   brecciac
   breccia2t
   breccia1t
-  brecciaw
+  leaflitter
   bwater
   swater
   twater
   dwater
+  brecciac
+  sphaleritec
+  sulphurv
+  brecciaw
+  pyricw
+  jarosicw
+  sulphurw
+  halycontree
+  invisibleprop
   oresilicon
   #blocks
     #turrets
