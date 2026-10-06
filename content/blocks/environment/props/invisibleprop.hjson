@@ -1,5 +1,6 @@
-type: TallBlock
+type: Prop
 variants: 0
 clipSize: 64
 shadowAlpha: 0
-shadowOffset: 0
+breakable: false
+alwaysReplace: false
