@@ -2,5 +2,5 @@ type: TreeBlock
 shadowOffset: -2
 shadowAlpha: 0.5 
 emitLight: true
-lightColor: 528779eb
+lightColor: 528779b6
 lightRadius: 96
