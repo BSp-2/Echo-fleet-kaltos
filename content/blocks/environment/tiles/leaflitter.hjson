@@ -1,5 +1,5 @@
 type: Floor
 variants: 3
 emitLight: true
-lightColor: 52877978
+lightColor: 5287791b
 lightRadius: 48
